@@ -1,0 +1,30 @@
+body {
+	background-color: #00000000;
+	margin: 0;
+}
+
+#info {
+	color:white;
+	font-family: Ubuntu, Arial, sans-serif;
+	font-size:2em;
+}
+
+#player_speeds {
+	display: flex;
+	flex-direction: column;
+	width:200px; /* Change this number to change the max speed of the graph in m/s times 10 */	
+	overflow: hidden;
+}
+
+.speed_bar {
+	height:2em;
+	transition: width .5s ease-out;
+}
+
+#player_speeds .orange {
+	background-color: #fd8b00;
+}
+
+#player_speeds .blue {
+	background-color: #0679ca;
+}
